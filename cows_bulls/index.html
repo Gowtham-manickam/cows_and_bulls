@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cows'n'Bulls</title>
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="icon" type="images/x-icon" href="images/title.png" />
+
+    
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body onload="qn()">
+    <!-- <button onclick="qn()">click</button> -->
+    <div class="container">
+      <h2>Let's Begin </h2>
+      <div class="input-wrapper">
+        <label for="ip">Guess</label>
+        <input type="text" id="ip" placeholder="Enter your Guess" />
+      </div>
+      <div class="input-wrapper">
+        <label for="gs">Hint</label>
+        <h4 class="opt" id = "opt"></h4>
+      </div>
+      <div>
+        <center>
+        <button onclick="trigger()" class="btn">Submit</button>
+      </center>
+      </div>
+    </div>
+
+    <div id="pos">
+    <h3 >Helper Box   <i id="ic" class="fas fa-bell"  style='font-size:24px' onclick="tips()" ></i>
+      <p id="help">
+
+      </p>
+    </h3>
+  </div>
+     
+
+  <div class="tips">
+    <h6>
+      
+    </h6>
+  </div>
+    <script src="script.js"></script>
+
+  </body>
+
+        
+
+</html>
